@@ -1,5 +1,13 @@
 export const initialState = {
-  basket: [],
+  basket: [
+      {
+        id:'1323',
+        title:'The Lean Start',
+        price:11.96,
+        rating:4,
+        image:'https://images-na.ssl-images-amazon.com/images/G/01/amazonglobal/images/email/asins/DURM-2447E617EC5C463L._V533746472_.jpg',
+      }
+  ],
   user: null,
 };
 
