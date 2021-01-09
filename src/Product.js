@@ -32,7 +32,7 @@ function Product({ id, title, image, price, rating }) {
             .fill()
             .map((_) => (
               <p>
-                <StarIcon />
+                <StarIcon style={{fill: "#F2BE11"}} />
               </p>
             ))}
         </div>
